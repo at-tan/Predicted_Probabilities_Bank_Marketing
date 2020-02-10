@@ -11,6 +11,6 @@ It also analyses the explanatory variables to arrive at the top 5 variables for 
 The single top variable was 'euribor3m'.
 
 Finally, the "Campaign_III" file has the Gridsearch of Logistic regression and Random Forest using the top 5 variables.
-The top 5-variable model was again Random Forest. It then has an analysis of the precision-recall curve to pinpoint the
+The top 5-variable model was again Random Forest. It then analyses the precision-recall curve to pinpoint the
 classification threshold at which the model's performance could be improved. The final 5-variable Random Forest model with 
-changed threshold achieved performance comparable to the top All-variable model.
+changed threshold achieved performance scores on the test set that were comparable to the top All-variable model.
