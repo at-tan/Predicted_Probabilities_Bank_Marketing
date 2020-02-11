@@ -7,8 +7,8 @@ The "Campaign_Gridsearch_SMOTE-Tomek" file has the Gridsearch of the Logistic re
 along with resampling using the combination SMOTE-Tomek algorithm.
 
 The "Campaign_II" file shows the top All-variable Random Forest model that emerged from the Gridsearch process above.
-It also analyses the explanatory variables to arrive at the top 5 variables for a more parsimonious predictive model. 
-The single top variable was 'euribor3m'.
+It also has the analysis of the explanatory variables, and concluding with the top 5 variables for a more parsimonious predictive model. 
+The top single variable was 'euribor3m'.
 
 Finally, the "Campaign_III" file has the Gridsearch of Logistic regression and Random Forest using the top 5 variables.
 The top 5-variable model was again Random Forest. It then analyses the precision-recall curve to pinpoint the
