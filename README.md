@@ -1,16 +1,4 @@
-# Portuguese_term_deposits
-Analysis of the Portuguese bank term deposit marketing campaign
+# Tackling Imbalanced Data with Predicted Probabilities
+Classification algorithms are often able to output predicted probabilities. These predicted probabilities provide an additional model-tuning mechanism that could help boost prediction performance on imbalanced data. 
 
-The "Campaign_I" file contains the data upload, cleaning, feature engineering and EDA.
-
-The "Campaign_Gridsearch_SMOTE-Tomek" file has the Gridsearch of the Logistic regression, Random Forest and SVC models,
-along with resampling using the combination SMOTE-Tomek algorithm.
-
-The "Campaign_II" file shows the top All-variable Random Forest model that emerged from the Gridsearch process above.
-It also has the analysis of the explanatory variables, and concluding with the top 5 variables for a more parsimonious predictive model. 
-The top single variable was 'euribor3m'.
-
-Finally, the "Campaign_III" file has the Gridsearch of Logistic regression and Random Forest using the top 5 variables.
-The top 5-variable model was again Random Forest. It then analyses the precision-recall curve to pinpoint the
-classification threshold at which the model's performance could be improved. The final 5-variable Random Forest model with 
-changed threshold achieved performance scores on the test set that were comparable to the top All-variable model.
+This article discusses the differences in predicted probabilities across five machine learning algorithms, namely Logistic Regression, Naive Bayes, Random Forest, Support Vector Classification and XG Boost. It demonstrates how predicted probabilities may be used to improve these models' performance in a case study. The case study is the 2014 Portuguese bank marketing dataset, where the target variable is successful subscriptions to a term deposit.
