@@ -3,4 +3,4 @@ Predicted probabilities from classification algorithms provide a key tuning mech
 
 The article discusses some key scoring metrics for imbalanced data. It then explores the differences in predicted probabilities across five machine learning algorithms, namely Logistic Regression, Naive Bayes, Random Forest, Support Vector Classification and XG Boost. It finally demonstrates how predicted probabilities may be used to improve these models' performance in a case study. The data is adapted from the 2014 Portuguese bank marketing dataset, where the target variable is successful subscriptions to a term deposit. The probability of picking a "yes" in the target variable is just 11.27%.
 
-These files contain the data and Python code used for the article published in: https://towardsdatascience.com/tackling-imbalanced-data-with-predicted-probabilities-3293602f0f2?sk=b3f5fda7915625b7008f454d9c4046a6
+These files contain the data and Python code used for the article published in: https://medium.com/data-science/tackling-imbalanced-data-with-predicted-probabilities-3293602f0f2
